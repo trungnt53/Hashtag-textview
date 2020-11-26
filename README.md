@@ -1,2 +1,3 @@
 # Hashtag-textview
-none
+# Getting Started
+please download to use
