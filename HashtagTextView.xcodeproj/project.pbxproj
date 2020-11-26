@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5940E717256E6537009F54F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5940E716256E6537009F54F4 /* AppDelegate.swift */; };
+		5940E719256E6537009F54F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5940E718256E6537009F54F4 /* SceneDelegate.swift */; };
+		5940E71B256E6537009F54F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5940E71A256E6537009F54F4 /* ViewController.swift */; };
+		5940E71E256E6537009F54F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5940E71C256E6537009F54F4 /* Main.storyboard */; };
+		5940E720256E653A009F54F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5940E71F256E653A009F54F4 /* Assets.xcassets */; };
+		5940E723256E653A009F54F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5940E721256E653A009F54F4 /* LaunchScreen.storyboard */; };
+		5940E72C256E65C1009F54F4 /* Tagging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5940E72B256E65C1009F54F4 /* Tagging.swift */; };
+		5940E72E256E668B009F54F4 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5940E72D256E668B009F54F4 /* UIViewExtension.swift */; };
+		5940E730256E6797009F54F4 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5940E72F256E6797009F54F4 /* StringExtension.swift */; };
+		5940E73A256E6C08009F54F4 /* DropDownTBVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5940E733256E6C08009F54F4 /* DropDownTBVCell.xib */; };
+		5940E73B256E6C08009F54F4 /* GSDropTBHashtagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5940E734256E6C08009F54F4 /* GSDropTBHashtagCell.swift */; };
+		5940E73D256E6C08009F54F4 /* DropDownTBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5940E736256E6C08009F54F4 /* DropDownTBView.swift */; };
+		5940E73E256E6C08009F54F4 /* GSDropTBHashtagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5940E737256E6C08009F54F4 /* GSDropTBHashtagCell.xib */; };
+		5940E73F256E6C08009F54F4 /* DropDownTBVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5940E738256E6C08009F54F4 /* DropDownTBVCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5940E713256E6537009F54F4 /* HashtagTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HashtagTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5940E716256E6537009F54F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5940E718256E6537009F54F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5940E71A256E6537009F54F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5940E71D256E6537009F54F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5940E71F256E653A009F54F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5940E722256E653A009F54F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5940E724256E653A009F54F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5940E72B256E65C1009F54F4 /* Tagging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tagging.swift; sourceTree = "<group>"; };
+		5940E72D256E668B009F54F4 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		5940E72F256E6797009F54F4 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		5940E733256E6C08009F54F4 /* DropDownTBVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DropDownTBVCell.xib; sourceTree = "<group>"; };
+		5940E734256E6C08009F54F4 /* GSDropTBHashtagCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSDropTBHashtagCell.swift; sourceTree = "<group>"; };
+		5940E736256E6C08009F54F4 /* DropDownTBView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownTBView.swift; sourceTree = "<group>"; };
+		5940E737256E6C08009F54F4 /* GSDropTBHashtagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSDropTBHashtagCell.xib; sourceTree = "<group>"; };
+		5940E738256E6C08009F54F4 /* DropDownTBVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownTBVCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5940E710256E6537009F54F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5940E70A256E6537009F54F4 = {
+			isa = PBXGroup;
+			children = (
+				5940E715256E6537009F54F4 /* HashtagTextView */,
+				5940E714256E6537009F54F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5940E714256E6537009F54F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5940E713256E6537009F54F4 /* HashtagTextView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5940E715256E6537009F54F4 /* HashtagTextView */ = {
+			isa = PBXGroup;
+			children = (
+				5940E731256E6C08009F54F4 /* PopoverContent */,
+				5940E72A256E65C1009F54F4 /* Tagging */,
+				5940E716256E6537009F54F4 /* AppDelegate.swift */,
+				5940E718256E6537009F54F4 /* SceneDelegate.swift */,
+				5940E71A256E6537009F54F4 /* ViewController.swift */,
+				5940E71C256E6537009F54F4 /* Main.storyboard */,
+				5940E71F256E653A009F54F4 /* Assets.xcassets */,
+				5940E721256E653A009F54F4 /* LaunchScreen.storyboard */,
+				5940E724256E653A009F54F4 /* Info.plist */,
+				5940E72D256E668B009F54F4 /* UIViewExtension.swift */,
+				5940E72F256E6797009F54F4 /* StringExtension.swift */,
+			);
+			path = HashtagTextView;
+			sourceTree = "<group>";
+		};
+		5940E72A256E65C1009F54F4 /* Tagging */ = {
+			isa = PBXGroup;
+			children = (
+				5940E72B256E65C1009F54F4 /* Tagging.swift */,
+			);
+			path = Tagging;
+			sourceTree = "<group>";
+		};
+		5940E731256E6C08009F54F4 /* PopoverContent */ = {
+			isa = PBXGroup;
+			children = (
+				5940E733256E6C08009F54F4 /* DropDownTBVCell.xib */,
+				5940E734256E6C08009F54F4 /* GSDropTBHashtagCell.swift */,
+				5940E736256E6C08009F54F4 /* DropDownTBView.swift */,
+				5940E737256E6C08009F54F4 /* GSDropTBHashtagCell.xib */,
+				5940E738256E6C08009F54F4 /* DropDownTBVCell.swift */,
+			);
+			path = PopoverContent;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5940E712256E6537009F54F4 /* HashtagTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5940E727256E653A009F54F4 /* Build configuration list for PBXNativeTarget "HashtagTextView" */;
+			buildPhases = (
+				5940E70F256E6537009F54F4 /* Sources */,
+				5940E710256E6537009F54F4 /* Frameworks */,
+				5940E711256E6537009F54F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HashtagTextView;
+			productName = HashtagTextView;
+			productReference = 5940E713256E6537009F54F4 /* HashtagTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5940E70B256E6537009F54F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Nguyen Tien Trung";
+				TargetAttributes = {
+					5940E712256E6537009F54F4 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 5940E70E256E6537009F54F4 /* Build configuration list for PBXProject "HashtagTextView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5940E70A256E6537009F54F4;
+			productRefGroup = 5940E714256E6537009F54F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5940E712256E6537009F54F4 /* HashtagTextView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5940E711256E6537009F54F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5940E73A256E6C08009F54F4 /* DropDownTBVCell.xib in Resources */,
+				5940E723256E653A009F54F4 /* LaunchScreen.storyboard in Resources */,
+				5940E720256E653A009F54F4 /* Assets.xcassets in Resources */,
+				5940E71E256E6537009F54F4 /* Main.storyboard in Resources */,
+				5940E73E256E6C08009F54F4 /* GSDropTBHashtagCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5940E70F256E6537009F54F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5940E72E256E668B009F54F4 /* UIViewExtension.swift in Sources */,
+				5940E73B256E6C08009F54F4 /* GSDropTBHashtagCell.swift in Sources */,
+				5940E71B256E6537009F54F4 /* ViewController.swift in Sources */,
+				5940E73D256E6C08009F54F4 /* DropDownTBView.swift in Sources */,
+				5940E730256E6797009F54F4 /* StringExtension.swift in Sources */,
+				5940E72C256E65C1009F54F4 /* Tagging.swift in Sources */,
+				5940E717256E6537009F54F4 /* AppDelegate.swift in Sources */,
+				5940E719256E6537009F54F4 /* SceneDelegate.swift in Sources */,
+				5940E73F256E6C08009F54F4 /* DropDownTBVCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5940E71C256E6537009F54F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5940E71D256E6537009F54F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5940E721256E653A009F54F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5940E722256E653A009F54F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5940E725256E653A009F54F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5940E726256E653A009F54F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5940E728256E653A009F54F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HashtagTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TrungNT.HashtagTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5940E729256E653A009F54F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HashtagTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TrungNT.HashtagTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5940E70E256E6537009F54F4 /* Build configuration list for PBXProject "HashtagTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5940E725256E653A009F54F4 /* Debug */,
+				5940E726256E653A009F54F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5940E727256E653A009F54F4 /* Build configuration list for PBXNativeTarget "HashtagTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5940E728256E653A009F54F4 /* Debug */,
+				5940E729256E653A009F54F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5940E70B256E6537009F54F4 /* Project object */;
+}
